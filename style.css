@@ -73,10 +73,11 @@ header {
     align-items: center;
     position: relative;
     padding: 0 8%;
+    min-height: 80vh;
     background-image: url('faxineira.jpg');
     background-repeat: no-repeat;
-    background-position: right top;
-    background-size: cover;
+    background-position: right 0px;
+    background-size: contain;
 }
 
 .hero::before {
